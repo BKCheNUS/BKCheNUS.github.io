@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Curriculum vitae of Brian K Chen, independent AI researcher. Education, publications, and current research.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Curriculum vitae · Brian K Chen</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="cv.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navigation page-width" aria-label="Main navigation">
+      <a class="wordmark" href="./" aria-label="Brian K Chen, home">Brian K Chen<span aria-hidden="true">.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#publications">Publications</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li><a href="cv.html" aria-current="page">CV <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="page-width cv-main">
+    <div class="cv-heading">
+      <div>
+        <p class="eyebrow">Curriculum vitae</p>
+        <h1>Brian K Chen</h1>
+        <p>Independent Researcher</p>
+        <p class="cv-contact"><a href="mailto:e0694208@u.nus.edu">e0694208@u.nus.edu</a></p>
+      </div>
+      <button type="button" class="print-button" id="print-cv" hidden>Print / save PDF <span aria-hidden="true">↗</span></button>
+    </div>
+
+    <section class="cv-section" aria-labelledby="interests-heading">
+      <h2 id="interests-heading">Research interests</h2>
+      <p>Model efficiency and reasoning; context, memory, and expressivity in transformers; diffusion language models; efficient inference and adaptation.</p>
+    </section>
+
+    <section class="cv-section" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="cv-item">
+        <div class="cv-item-heading"><h3>National University of Singapore</h3><span>2021–2025</span></div>
+        <p>PhD in Computer Science</p>
+        <p>Supervisor: <a href="https://ml.comp.nus.edu.sg/">Kenji Kawaguchi</a></p>
+      </div>
+      <div class="cv-item">
+        <div class="cv-item-heading"><h3>University of Oxford</h3><span>2016–2020</span></div>
+        <p>MMath in Mathematics &amp; Statistics</p>
+      </div>
+    </section>
+
+    <section class="cv-section" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+      <div class="cv-item">
+        <div class="cv-item-heading"><h3>Independent Researcher</h3><span>Current</span></div>
+        <p>Research on model efficiency and reasoning, context and memory in transformers, and diffusion language models.</p>
+      </div>
+      <div class="cv-item">
+        <div class="cv-item-heading"><h3>Esquel Group</h3><span>2019</span></div>
+        <p>HR Data Analyst Intern</p>
+        <p>Developed an R-based model for three-month employee attrition prediction.</p>
+      </div>
+    </section>
+
+    <section class="cv-section" aria-labelledby="publications-heading">
+      <h2 id="publications-heading">Selected publications</h2>
+      <p class="section-note">* Equal contribution</p>
+      <ol class="cv-list">
+        <li>
+          <h3><a href="https://arxiv.org/abs/2506.13674">PrefixMemory-Tuning: Modernizing Prefix-Tuning by Decoupling the Prefix from Attention</a></h3>
+          <p class="authors">Haonan Wang<sup>*</sup>, <strong>Brian K Chen<sup>*</sup></strong>, Siquan Li<sup>*</sup>, Xinhe Liang, Hwee Kuan Lee, Kenji Kawaguchi, Tianyang Hu</p>
+          <p class="publication-venue">ICLR 2026 · Co-first author</p>
+        </li>
+        <li>
+          <h3><a href="https://www.nature.com/articles/s44385-026-00096-4">Rethinking Pathology Image Analysis through Shuffling</a></h3>
+          <p class="authors">Zeyu Liu<sup>*</sup>, Tianyi Zhang<sup>*</sup>, <strong>Brian K Chen<sup>*</sup></strong>, et al.</p>
+          <p class="publication-venue">npj Biomedical Innovations, 2026 · Co-first author</p>
+        </li>
+        <li>
+          <h3><a href="https://proceedings.mlr.press/v235/chen24r.html">Exact Conversion of In-Context Learning to Model Weights in Linearized-Attention Transformers</a></h3>
+          <p class="authors"><strong>Brian K Chen</strong>, Tianyang Hu, Hui Jin, Hwee Kuan Lee, Kenji Kawaguchi</p>
+          <p class="publication-venue">ICML 2024 · First author</p>
+        </li>
+        <li>
+          <h3><a href="https://openreview.net/forum?id=I0jWlviNHp">In-Context Learning Behaves as a Greedy Layer-Wise Gradient Descent Algorithm</a></h3>
+          <p class="authors"><strong>Brian K Chen</strong>, Tianyang Hu, Hui Jin, Hwee Kuan Lee, Kenji Kawaguchi</p>
+          <p class="publication-venue">NeurIPS Workshop, 2024 · First author</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="cv-section" aria-labelledby="submissions-heading">
+      <h2 id="submissions-heading">Submitted manuscripts</h2>
+      <p class="section-note">ICLR 2027 submissions</p>
+      <ol class="cv-list">
+        <li><h3>The Value of Memory in Language Models: Joint Limits on Language Model Expressivity</h3><p class="authors"><strong>Brian K Chen</strong>, Cui Kai</p></li>
+        <li><h3>How Far Can Sliding Window Attention See?</h3><p class="authors">Maxime Meyer<sup>*</sup>, <strong>Brian K Chen<sup>*</sup></strong>, Nikolaj Murašov, Caroline Chaux, Vincent Y. F. Tan</p></li>
+        <li><h3>Reasoning Under Intervention: Learned Soft Prefixes as Behavioral Probes</h3><p class="authors"><strong>Brian K Chen</strong></p></li>
+        <li><h3><a href="https://arxiv.org/abs/2608.02625">Speculative Correction: Draft-Then-Refine Decoding for Diffusion Language Models</a></h3><p class="authors"><strong>Brian K Chen</strong>, Chong Wu, Kenji Kawaguchi</p></li>
+      </ol>
+    </section>
+
+    <section class="cv-section" aria-labelledby="progress-heading">
+      <h2 id="progress-heading">Work in progress</h2>
+      <ul class="cv-list">
+        <li><h3>Bottlenecks in Hybrid Sliding-Window Attention</h3><p class="authors"><strong>Brian K Chen</strong>, Maxime Meyer</p></li>
+        <li><h3>The Expressivity of the Indexer Controls the Expressivity of the Language Model</h3><p class="authors"><strong>Brian K Chen</strong>, Maxime Meyer</p></li>
+        <li><h3>BFLA: Block-Filtered Long-Context Attention Mechanism</h3><p class="authors">Wu Chong, <strong>Brian K Chen</strong>, et al.</p></li>
+        <li><h3>Index-Predictor: Does DeepSeek Need as Many Static Heads?</h3><p class="authors"><strong>Brian K Chen</strong>, Wu Chong</p></li>
+        <li><h3>Amortized Memory Systems for Long-Horizon Agentic Harnesses</h3><p class="authors"><strong>Brian K Chen</strong></p></li>
+      </ul>
+    </section>
+
+    <section class="cv-section" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills &amp; languages</h2>
+      <p><strong>Programming:</strong> Python, R<br><strong>Languages:</strong> English (native), Mandarin (native)</p>
+    </section>
+  </main>
+  <footer class="site-footer page-width"><span>Updated November 2026</span><a href="index.html">Back to homepage <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>

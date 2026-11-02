@@ -1,0 +1,6 @@
+// The CV remains readable without JavaScript; only the print shortcut needs it.
+const printButton = document.getElementById("print-cv");
+if (printButton) {
+  printButton.hidden = false;
+  printButton.addEventListener("click", () => window.print());
+}
